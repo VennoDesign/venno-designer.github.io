@@ -50,7 +50,8 @@ a:visited {
 
 }
 
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 600px) {
     .logo img {
       width: 100px;
       height: auto;
@@ -83,7 +84,7 @@ a:visited {
   .nav-links li {
       margin: 10px 0;
   }
-  }
+  
 
   h3 {
     font-family: Arial, Helvetica, sans-serif;
@@ -123,8 +124,6 @@ h5 {
     margin: 0px;
 
 }
-
-@media only screen and (max-width: 600px) {
     #container {
         width: 80%;
         display: flex;
